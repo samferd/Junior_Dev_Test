@@ -9,7 +9,6 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
-
     //Input data
     const testdata = [
       {
@@ -23,7 +22,7 @@ app.use(bodyParser.json());
   
   //Respond with 'Input validation express js' to / directory
   app.get('/', (_, res) =>{
-      res.send('Input validation express js');
+      res.send('Junior_Dev_Test');
   });
   
   //Respond with an object array of testdata as json
